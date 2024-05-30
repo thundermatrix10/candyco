@@ -1,0 +1,151 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.6ac3c37ea1a1a411d6dd33be1f0362a1?rik=OVkHI0ZEDYYAuQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f67si9w9.jpg&ehk=rpWSlCbDHpJBzWxo88v58qwBJZGpHLIaFKcABo%2b0DFc%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    padding: 30px;
+    box-shadow: 0 0 8px yellowgreen;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul li {
+    display: inline;
+    padding: 40px;
+    text-align: right;
+}
+
+.header ul li a {
+    color: yellowgreen;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Suez One;
+}
+
+.logo
+{
+    font-family: Spicy Rice;
+    font-size: 26px;
+    color: yellowgreen;
+}
+
+.container
+{
+    width: 80%;
+    margin: 50px auto;
+    font-family: Suez One;
+}
+
+.contactbox
+{
+    display: flex;
+    background: #fff;
+    height: 430px;
+    border-radius: 20px;
+}
+
+.contactleft
+{
+    flex-basis: 60%;
+    padding: 5px 60px;
+}
+
+.contactright
+{
+    flex-basis: 40%;
+    padding: 15px;
+    background: yellowgreen;
+    color: white;
+}
+
+h1{
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-size: 23px;
+    color: yellowgreen;
+}
+
+.container p
+{
+    margin-bottom: 10px;
+}
+
+.inputrow
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inputrow .inputgroup
+{
+    flex-basis: 45%;
+}
+
+input
+{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea
+{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label
+{
+    margin-bottom: 6px;
+    display: block;
+    color: yellowgreen;
+}
+
+button
+{
+    background: yellowgreen;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+
+.contactleft h3
+{
+    color: yellowgreen;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contactright h3
+{
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+tr td
+{
+    padding-right: 18px;
+    padding: 10px;
+}

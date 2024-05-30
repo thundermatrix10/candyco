@@ -1,0 +1,83 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.6ac3c37ea1a1a411d6dd33be1f0362a1?rik=OVkHI0ZEDYYAuQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f67si9w9.jpg&ehk=rpWSlCbDHpJBzWxo88v58qwBJZGpHLIaFKcABo%2b0DFc%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    padding: 30px;
+    box-shadow: 0 0 8px yellowgreen;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul li {
+    display: inline;
+    padding: 40px;
+    text-align: right;
+}
+
+.header ul li a {
+    color: yellowgreen;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Suez One;
+}
+
+.logo
+{
+    font-family: Spicy Rice;
+    font-size: 26px;
+    color: yellowgreen;
+}
+
+.row
+{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding-left: 58%;
+}
+
+.col
+{
+    flex-basis: 80%;
+}
+
+.row h1
+{
+    font-size: 80px;
+    color: yellowgreen;
+}
+
+.row p
+{
+    font-size: 22px;
+    color: yellowgreen;
+}
+
+.row button 
+{
+    width: 100px;
+    padding: 12px 0;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.row button a
+{
+    color: yellowgreen;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}

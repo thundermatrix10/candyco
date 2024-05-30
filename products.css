@@ -1,0 +1,123 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("https://th.bing.com/th/id/R.6ac3c37ea1a1a411d6dd33be1f0362a1?rik=OVkHI0ZEDYYAuQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f67si9w9.jpg&ehk=rpWSlCbDHpJBzWxo88v58qwBJZGpHLIaFKcABo%2b0DFc%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    padding: 30px;
+    box-shadow: 0 0 8px yellowgreen;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul li {
+    display: inline;
+    padding: 40px;
+    text-align: right;
+}
+
+.header ul li a {
+    color: yellowgreen;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Suez One;
+}
+
+.logo
+{
+    font-family: Spicy Rice;
+    font-size: 26px;
+    color: yellowgreen;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 45px;
+    padding-top: 2%;
+    font-family: Suez One;
+    color: yellowgreen;
+}
+
+.all-products
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+    font-family: Suez One;
+}
+
+.product
+{
+	overflow: hidden;
+	background: yellowgreen;
+	color: white;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+}
+
+.product .product-title, .product .product-price
+{
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+
+
+.product:hover
+{
+	box-shadow: 5px 15px 25px yellowgreen;
+}
+
+.product img
+{
+	height: 200px;
+    width: 180px;
+	margin: 1rem;
+    border-radius: 1.2rem;
+}
+
+.product a:link, .product a:visited
+{
+	color: black;
+	width: 180px;
+	display: inline-block;
+	text-decoration: none;
+	background-color: white;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 15px;
+	transition: all 0.2s;
+}
+
+.product a:hover
+{
+	transform: scale(1.1);
+}
